@@ -1,50 +1,11 @@
-# Welcome to your Expo app 👋
+Projeto de Graduação
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este repositório contém o código-fonte desenvolvido para o projeto de graduação, orientado pela professora Denilce de Almeida O. Veloso. O propósito do projeto é criar uma lista de alunos para ambiente mobile através de JavaScript. Atualmente, o projeto se encontra em sua primeira fase, onde os dados dos alunos são gerados aleatoriamente pela API randomuser. Para a segunda fase, haverá a programaçao de um banco de dados via MongoDB para armazenar e permitir alterações dos alunos registrados.
 
-## Get started
+Para a execução do projeto, clone o repósitório com "git clone" e certifique-se de ter todas as dependências instaladas:
 
-1. Install dependencies
+    React Native;
+    Node.js;
+    Expo GO;
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Após isso, com os arquivos baixados localmente, navegue até a pasta do projeto, instale as dependências com "npm install" e inicie o servidor com "npx expo start". E, então, após o fornecimento do Código QR do projeto, escaneie a imagem com o Expo GO no dispositivo móvel para ter acesso a aplicação em funcionamento.
