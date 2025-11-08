@@ -11,6 +11,10 @@ export default function RootLayout() {
         name="detalhes" 
         options={{ title: 'Detalhes do Aluno' }}
       />
+      <Stack.Screen
+        name="formulario" 
+        options={{ title: 'Novo Aluno', presentation: 'modal' }}
+      />
     </Stack>
   );
 }
